@@ -90,10 +90,12 @@
     </Content>
     <Content Include="Content Pages\login.aspx" />
     <Content Include="Content Pages\recoverpassword.aspx" />
-    <Content Include="Content Pages\registration.aspx" />
+    <Content Include="Content Pages\register.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\Share I.T Logo.jpg" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Content Pages\login.aspx.cs">
@@ -110,21 +112,19 @@
     <Compile Include="Content Pages\recoverpassword.aspx.designer.cs">
       <DependentUpon>recoverpassword.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Content Pages\registration.aspx.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
+    <Compile Include="Content Pages\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Content Pages\registration.aspx.designer.cs">
-      <DependentUpon>registration.aspx</DependentUpon>
+    <Compile Include="Content Pages\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Models\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

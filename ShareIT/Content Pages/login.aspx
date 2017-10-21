@@ -9,8 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <img src="../Images/Share I.T Logo.jpg" height="195" width="300" style="float:left" />
-            <asp:Login ID="ShareITLogin" runat="server" CreateUserText="Register for ShareIT!" CreateUserUrl="~/Content Pages/registration.aspx" Height="135px" Orientation="Horizontal" PasswordRecoveryText="Forgot Password?" TextLayout="TextOnTop" Width="544px"></asp:Login>
+            <img src="../Images/Share I.T Logo.jpg" height="190" width="300" alt="ShareIT SDSU" style="float:left" />
+            <asp:Login ID="ShareITLogin" runat="server" CreateUserText="Register for access!" CreateUserUrl="~/Content Pages/register.aspx" Height="165px" PasswordRecoveryText="Forgot password?" PasswordRecoveryUrl="~/Content Pages/recoverpassword.aspx" RememberMeText="Remember me." TitleText="Access  ShareIT!" Width="405px"></asp:Login>
         </div>
     </form>
 </body>
