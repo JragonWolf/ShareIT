@@ -8,15 +8,17 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <link href="NavMenuTheme.css" rel="stylesheet" type="text/css" />
-    <script src="../Scripts/jquery-3.2.1.min.js" type="text/javascript"></script>
+    
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="PageWrapper">
-            <img src="../Images/Share I.T Logo.jpg" alt="ShareIT SDSU!" style="display:block;margin:0 auto"/>
+        <div class="PageWrapper">
+            
             <header>
-                <nav><ul><li><a href="../Content Pages/home.aspx">Home</a></li><li><a href="../Content Pages/groups.aspx">Groups</a></li><li><a href="../Content Pages/collegues.aspx">Collegues</a></li><li><a href="../Content Pages/about.aspx">About</a></li></ul></nav>
+                <img src="../Images/Share I.T Logo.jpg" alt="ShareIT SDSU!" style="display:block;margin:0 auto"/>
+                
             </header>
+            <nav id="nav"><ul><li><a href="../Content Pages/home.aspx">Home</a></li><li><a href="../Content Pages/groups.aspx">Groups</a></li><li><a href="../Content Pages/collegues.aspx">Collegues</a></li><li><a href="../Content Pages/about.aspx">About</a></li></ul></nav>
             <section id="PageContent">
             <asp:ContentPlaceHolder ID="cpPageContent" runat="server">
             </asp:ContentPlaceHolder> 

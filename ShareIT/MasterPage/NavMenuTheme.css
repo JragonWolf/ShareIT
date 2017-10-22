@@ -3,6 +3,9 @@
     width:300px;
 }
 ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -30,4 +33,9 @@ li a:hover{
 li:last-child{
     border-right: none;
 }
-
+body{
+    padding-top:70px;
+}
+header{
+    top:0;
+}
