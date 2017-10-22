@@ -75,8 +75,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content Pages\about.aspx" />
+    <Content Include="Content Pages\collegues.aspx" />
+    <Content Include="Content Pages\groups.aspx" />
+    <Content Include="Content Pages\home.aspx" />
     <Content Include="MasterPage\ShareIT.Master" />
     <None Include="packages.config" />
+    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -94,11 +105,40 @@
     <Content Include="Content Pages\register.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Images\Share I.T Logo.jpg" />
+    <Content Include="MasterPage\NavMenuTheme.css" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Content Pages\about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content Pages\about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content Pages\collegues.aspx.cs">
+      <DependentUpon>collegues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content Pages\collegues.aspx.designer.cs">
+      <DependentUpon>collegues.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content Pages\groups.aspx.cs">
+      <DependentUpon>groups.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content Pages\groups.aspx.designer.cs">
+      <DependentUpon>groups.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Content Pages\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Content Pages\home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Content Pages\login.aspx.cs">
       <DependentUpon>login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
