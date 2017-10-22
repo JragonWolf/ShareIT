@@ -1,0 +1,26 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ShareIT.master.cs" Inherits="ShareIT.MasterPage.ShareIT" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <header><img src="../Images/Share I.T Logo.jpg" alt="ShareIT SDSU!" width="600" height="200" style="display:block;margin:0 auto" /></header>
+        </div>
+        <nav>MENU HERE</nav>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>            
+        </div>
+        <div>
+            <footer style="text-align:center">FOOTER INFO HERE</footer>
+        </div>
+    </form>
+</body>
+</html>
